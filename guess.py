@@ -1,7 +1,7 @@
 import random
 
 
-# input a number to guess the computers random generated number
+# input a number to guess the computers random generated number between range specified by x
 def guess(x):
     random_number = random.randint(1, x)
     guess = 0
@@ -15,7 +15,7 @@ def guess(x):
     print(f'Congrats!! You guessed the random number {x}!')
 
 
-# input a high range for the computer to guess the random number youre thinking
+# input a high range(x) for the computer to guess the random number your'e thinking
 def computer_guess(x):
     low = 1
     high = x
