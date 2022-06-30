@@ -1,8 +1,7 @@
 import random
 
+
 # input a number to guess the computers random generated number
-
-
 def guess(x):
     random_number = random.randint(1, x)
     guess = 0
